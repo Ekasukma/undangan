@@ -2,7 +2,6 @@
 /*audio {
     display: none; /* Menyembunyikan elemen audio */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -125,7 +124,6 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-
 /* Efek fade-in untuk halaman */
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -134,4 +132,50 @@ html, body {
 
 .page {
     animation: fadeIn 2s ease-out;
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 768px) {
+    /* Pengaturan untuk perangkat dengan layar tablet atau lebih kecil */
+    h1 {
+        font-size: 28px;
+    }
+
+    .photo-gallery img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .page {
+        padding: 10px;
+    }
+
+    .countdown-container {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Pengaturan untuk perangkat dengan layar smartphone */
+    h1 {
+        font-size: 24px;
+    }
+
+    .photo-gallery img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .whatsapp-button {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .whatsapp-button a {
+        font-size: 14px;
+    }
+
+    .countdown-container {
+        font-size: 0.9em;
+    }
 }
