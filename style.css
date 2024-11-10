@@ -59,8 +59,8 @@
     }
     
     .photo-gallery img {
-        width: 500px;
-        height: 550px;
+        width: 400px;
+        height: 450px;
         object-fit: cover;
         border-radius: 8px;
         transition: transform 0.3s ease-in-out;
@@ -96,7 +96,6 @@
         height: auto; /* Memastikan gambar tetap proporsional */
     }
 }
-
     /* Tombol untuk Scroll Antar Halaman */
     .page h2 {
         font-size: 2.5em;
